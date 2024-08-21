@@ -13,5 +13,8 @@
 ## Services    
   - A service in Angular is a class that provides a specific functionality to be used across different components. Services are usually decorated with the @Injectable 
     decorator, which allows them to be injected into other classes using Angular’s Dependency Injection (DI) system.
+## Scope in Angular 
+ - In AngularJS (Angular 1.x), the $scope object was used to link the view (HTML) and the controller. It allowed for two-way data binding, meaning changes in the scope were 
+   reflected in the view and vice versa.
         
     
