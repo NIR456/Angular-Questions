@@ -16,5 +16,11 @@
 ## Scope in Angular 
  - In AngularJS (Angular 1.x), the $scope object was used to link the view (HTML) and the controller. It allowed for two-way data binding, meaning changes in the scope were 
    reflected in the view and vice versa.
+ - Angular (2 and later) moved away from $scope and adopted a component-based architecture. In this architecture, components encapsulate data and behavior. Each component 
+  has its own context, meaning.
+ - **Component Class:** Contains the logic and data (similar to the controller in AngularJS).
+ - **Template:** Contains the HTML and uses data binding to display and interact with the data from the component class.
+ - **Service:** Used to share data or functionality between components.
+
         
     
